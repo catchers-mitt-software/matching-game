@@ -1,0 +1,7 @@
+TEAM_ID=
+
+PRODUCT_NAME=matchinggame
+PRODUCT_BUNDLE_IDENTIFIER=com.catchersmittsoftware.games.matchinggame.matchinggame$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
