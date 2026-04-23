@@ -3,7 +3,7 @@ package com.catchersmittsoftware.text
 object TextProcessor {
 
     fun isHighSurrogate(ch: Char): Boolean {
-        return ch in '\ud800'..<'\uE000'
+        return ch in '\ud800'..<'\udc00'
     }
 
     fun isLowSurrogate(ch: Char): Boolean {
