@@ -1,4 +1,4 @@
 package com.catchersmittsoftware.text
 
-class TextProcessor {
+object TextProcessor {
 }
