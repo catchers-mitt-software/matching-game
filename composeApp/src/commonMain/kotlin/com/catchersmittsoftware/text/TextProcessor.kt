@@ -7,7 +7,7 @@ object TextProcessor {
     }
 
     fun isLowSurrogate(ch: Char): Boolean {
-        return ch > '\uDBFF' && ch < '\uE000'
+        return ch in '\udc00'..<'\uE000'
     }
 
     // TODO: Write tests for this
