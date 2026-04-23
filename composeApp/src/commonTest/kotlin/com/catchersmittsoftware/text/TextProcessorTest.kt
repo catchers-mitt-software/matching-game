@@ -24,4 +24,13 @@ class TextProcessorTest {
         assertFalse(TextProcessor.isHighSurrogate(ch), message)
     }
 
+    @Test
+    fun testIsLowSurrogate() {
+        val num = (0xDC00 .. 0xDFFF).random()
+        val ch: Char = num.toChar()
+        val message =
+            "Character $ch (${num.toHexString()}) should be low surrogate"
+        assertTrue(TextProcessor.isLowSurrogate(ch), message)
+    }
+
 }
