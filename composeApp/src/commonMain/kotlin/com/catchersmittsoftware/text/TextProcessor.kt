@@ -8,7 +8,7 @@ object TextProcessor {
 
     // TODO: Write tests for this
     fun isLowSurrogate(ch: Char): Boolean {
-        return false
+        return true
     }
 
     // TODO: Write tests for this
