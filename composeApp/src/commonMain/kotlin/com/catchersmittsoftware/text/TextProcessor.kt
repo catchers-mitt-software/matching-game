@@ -2,9 +2,8 @@ package com.catchersmittsoftware.text
 
 object TextProcessor {
 
-    // TODO: Write tests for this
     fun isHighSurrogate(ch: Char): Boolean {
-        return true
+        return ch > '\uD7FF' && ch < '\uDC00'
     }
 
     // TODO: Write tests for this
